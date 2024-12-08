@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Brygada 1918', sans-serif; 
-    font-weight: 400;
-    font-style: italic;    
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Brygada 1918", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  overflow-x: hidden;
 }
 
 .banner {
   width: 100vw;
   height: 25vh;
-  background: url('imagenes/logo.jpeg') no-repeat center center #575759;
+  background: url("imagenes/logo.jpeg") no-repeat center center #575759;
   background-size: contain;
   box-shadow: 0 -18px 10px 20px gray;
 }
@@ -37,8 +37,9 @@ h1 {
   color: #dab743;
 }
 
-strong, strong > a {
-    color: #333;
+strong,
+strong > a {
+  color: #333;
 }
 
 .img {
@@ -52,13 +53,13 @@ strong, strong > a {
   align-items: center;
 }
 
-@media(max-width:500px) {
+@media (max-width: 500px) {
   .container_info {
     flex-direction: column;
   }
 }
 
-.indicadores-servicios li{
+.indicadores-servicios li {
   font-size: 20px;
   line-height: 35px;
 }
@@ -133,6 +134,7 @@ strong, strong > a {
   max-height: 670px;
   margin: 0 auto;
   border-radius: 8px;
+  max-width: 90%;
 }
 
 .servicios {
@@ -208,13 +210,13 @@ strong, strong > a {
   margin-top: -5px;
 }
 
-@media(max-width: 600px){
-  .optica{
+@media (max-width: 600px) {
+  .optica {
     margin: 30 auto;
     margin-left: 20px;
     height: 40%;
   }
-  .optica img{
+  .optica img {
     margin-top: 10px;
     height: 75%;
   }
@@ -239,4 +241,16 @@ strong, strong > a {
 
 .contactenos img {
   width: 34px;
+}
+
+.promocion {
+  margin-top: -62px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .promocion {
+    margin-top: 47px;
+  }
 }
